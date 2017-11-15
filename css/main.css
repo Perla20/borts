@@ -1,0 +1,51 @@
+body {
+  /*background-image:url(../assets/img/telar.jpg);*/
+/*background-image:url(../assets/img/mach.jpg);*/
+width: 100%
+height:900%
+max-width: 100%;
+font-family: cursive;
+/*z-index: 10;*/
+
+}
+header {
+  position: fixed;
+  height: 15%;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.5);
+  top: 0;
+  /*margin-bottom: 1%;*/
+z-index: 10;
+}
+
+
+header li{
+  padding-left: 60px;
+  margin-left: 8%;
+  display: inline-block;
+  color: white;
+}
+li2{
+  margin-left: 1000px;
+  color: white;
+}
+section {
+  width: 100%;
+  height: 600px;
+  /*display: block;*/
+  max-width: 100%;
+  text-align: center;
+  /*top: 20px;*/
+
+  margin-top: 7%;
+    background-image:url(../assets/img/peop.jpg);
+    color: purple;
+    font-weight: 400;
+  position: relative;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+}
+section h1 p {
+  position: absolute;
+  /*top: 200px;*/
+}
