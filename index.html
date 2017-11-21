@@ -25,20 +25,18 @@
 </section>
 <div class="imput">
 <form class="formulario" action="index.html" method="post">
-  <hr>
-    <textarea id ="caracteres" rows="12" cols="65"></textarea>
+    <textarea id ="caracteres"placeholder="¿Qué estas pensando?" rows="5" cols="30"autofocus value="tweet"></textarea>
+<div class="footer-formulario clearfix">
+<div class ="footer">
+<button type="submit" name="button"value="tweet">tweeter</button>
 
-
-<button type="button" name="button"><strong>TWETT</strong></button>
-<!-- <b id ="counter"> <numsOfCharacters>140</numsOfCharacters></b> -->
- <b id ="counter"> <accountant>140</accountant></b>
-
-
-
-
-</b>
- </form>
+<span id="count"class=count>140</span>
  </div>
+ </div>
+</form>
+<div id="messages"></div>
+<script src="https://momentjs.com/downloads/moment.min.js"></script>
+ <script src="js/vendors/moment.js"></script>
     <script src="js/app.js" charset="utf-8"></script>
   </body>
 </html>

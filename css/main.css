@@ -75,36 +75,76 @@ position: absolute;
 left:  650px;
 top: 17px;
 
-  outline ; 1px solid purple;
-  border-style: outset;
 }
 
-.medium-textarea textarea {
-   height: 6em;
-   width: 400px;
-}
 button{
   position: absolute;
-  width: 90px;
-  height: 50px;
+  width: 70px;
+  height: 40px;
   margin: auto;
-  background: transparent;
+  background: lightblue;
+  transition: background-color 0.2s, color 0.2s;
   border-radius: 25%;
   color:blue;
-bottom: 20px;
-margin-left: 40px;
+  top: 30%;
+margin-left: 15px;
 
 }
-hr {
-  width: 100%;
-  position: absolute;
-  bottom: 30%;
-border-color: blue;
-/*outline: 1px solid red;*/
+button:disabled {
+	border: 1px solid #999999;
+	background-color: #cccccc;
+	color: #666666;
 }
-.characters{
+
+.count{
   position: absolute;
-  top: 70%;
-left: 87%;
-outline: 1px solid red;
+  top: 40%;
+left: 70%;
+
+}
+ .footer{
+   position: absolute;
+   padding-top: 9px;
+border-top: blue;
+   top: 93%;
+   /*margin-top: 0;*/
+  background: white;
+  border-top: 1px solid blue;
+  width: 100%;
+  height: 50px;
+  outline: 1px solid black;
+}
+textarea{
+  font-size: 0.8em;
+  overflow: hidden;
+}
+textarea:focus {
+	border-color: #336699;
+}
+
+::-webkit-input-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder,
+:-moz-placeholder {
+	color: #fafafa;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.seagreen {
+  color: seagreen;
+}
+
+.greenyellow {
+  color: greenyellow;
+}
+
+.orangered {
+  color: orangered;
+}
+
+.red {
+  color: red;
 }
